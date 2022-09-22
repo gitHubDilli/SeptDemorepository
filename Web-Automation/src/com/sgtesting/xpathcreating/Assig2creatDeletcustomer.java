@@ -17,8 +17,7 @@ public class Assig2creatDeletcustomer {
 	}
 	private static void launchBrowser() 
 	{
-		String path=System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", path+"\\Library\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\ExampleAutomation\\Automation\\Web-Automation\\Library\\drivers\\chromedriver.exe");
 		oBrowser=new ChromeDriver();
 		oPage=new ActiTimePage(oBrowser);
 	}
